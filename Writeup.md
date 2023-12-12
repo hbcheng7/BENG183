@@ -53,21 +53,25 @@ Differential binding analysis is important to visualize the differences in gene 
 - **Comparative Analysis**: Compare different conditions or time points to identify how the binding complex interacts differently. Tools that could be used for this could be DiffBind or MAnorm.
 ![image](https://github.com/hbcheng7/BENG183/assets/133923635/9d0123cf-ee94-4360-acc1-b09570c98149)
 
-Diffbind binding affinities
+Diffbind binding affinities visualized for each factor
 ## 6. Visualization
 It is important to see where in the genome your peaks are being called. This can be done using a genome browser.
 
 - **Genome Browser**: You can visualize the binding sites as peaks compared to the background using tools like the UCSC Genome Browser or IGV.
 <img width="663" alt="image" src="https://github.com/hbcheng7/BENG183/assets/133923635/49eae0d5-0f94-4047-a5de-896af21f109c">
-IGV Visuazation, circled are the enriched peaks.
+
+IGV Visualization (enriched peaks are circled) 
 
 ## 7. Motif Analysis
 Lastly, you can utilize techniques to find enriched motifs. This allows for us to understand binding preferences and regulatory roles of protein-DNA binding complexes
 
 - **Motif Annotation**: Utilize a tool to discover any motifs and compare them to known background motifs. Usually a list of the most similarly represented motifs will show up, including all the statistics needed such as nucleotide frequencies at each position or probabilities. Tools such as MEME-suite or HOMER can be used.
-<img width="676" alt="image" src="https://github.com/hbcheng7/BENG183/assets/133923635/a96b9f2c-a98e-41cb-b59d-6cf32b17ef09">
 
 This pipeline is crucial for transforming raw ChIP-Seq data into meaningful insights about protein-DNA interactions and their impact on gene regulation and cellular processes.
+
+<img width="676" alt="image" src="https://github.com/hbcheng7/BENG183/assets/133923635/a96b9f2c-a98e-41cb-b59d-6cf32b17ef09">
+
+Top Known Motifs Found with their Statistics
 
 # Advantages and Applications
 # References
