@@ -41,24 +41,25 @@ Peak calling is an important step in this process. You want to find where peaks 
 - **Identify Enriched Peak Regions**: Peak calling can be done with tools such as MACS2 or HOMER.
 - **Peak Annotation**: Annotating peaks is important to see which features are most likely to be found at your identified region. This can be done with HOMER or BEDTools. Your results should be genomic signal profiles, distributions of different regulatory elements, and nearest introns/exons/ genic regions.
 
-## 5. Differential Expression Analysis
+## 5. Differential Binding Analysis
+Differential binding analysis is important to visualize the differences in gene regulation that result in different gene expression levels. This will help identify just how different transcription factors bind differently to regions, and how they do so in different scenarios.
 
-- **Comparative Analysis**: Compare different conditions or time points to identify differentially bound regions.
+- **Comparative Analysis**: Compare different conditions or time points to identify how the binding complex interacts differently. Tools that could be used for this could be DiffBind or MAnorm.
 
 ## 6. Visualization
-- **Genome Browser**: Visualize the binding sites using tools like the UCSC Genome Browser or IGV.
-- **Heatmaps**: Create heatmaps to show binding patterns across different regions.
+It is important to see where in the genome your peaks are being called. This can be done using a genome browser.
 
-## 7. Integrative Analysis
-- **Correlate with Gene Expression**: Integrate with RNA-Seq or other gene expression data.
-- **Functional Annotation**: Analyze for enriched pathways or motifs in the binding sites.
+- **Genome Browser**: You can visualize the binding sites as peaks compared to the background using tools like the UCSC Genome Browser or IGV.
+
+## 7. Motif Analysis
+Lastly, you can utilize techniques to find enriched motifs. This allows for us to understand binding preferences and regulatory roles of protein-DNA binding complexes
+
+- **Motif Annotation**: Utilize a tool to discover any motifs and compare them to known background motifs. Usually a list of the most similarly represented motifs will show up, including all the statistics needed such as nucleotide frequencies at each position or probabilities. Tools such as MEME-suite or HOMER can be used.
 
 This pipeline is crucial for transforming raw ChIP-Seq data into meaningful insights about protein-DNA interactions and their impact on gene regulation and cellular processes.
 
-# How to View Results
 # Advantages and Applications
 # References
-# references
 https://www.epicypher.com/resources/blogchromatin-mapping-basics-chipseq/
 https://www.cd-genomics.com/pipeline-and-tools-comparison-for-chip-seq-analysis.html
 https://hbctraining.github.io/Intro-to-rnaseq-hpc-salmon/lessons/qc_fastqc_assessment.html
