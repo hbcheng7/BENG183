@@ -23,7 +23,7 @@ Quality control is a crucial part of processing any raw sequencing data, regardl
 - **Run FastQC**: Run FastQC to assess the quality of the data. FastQC is widely used in other sequencing methods as well. There is a lot of FastQC data to assess, so most importantly, check for the adapter content, per base sequence quality, and sequence duplication levels for good results.
 - **Trimming**: Run trimming to remove adapters and low quality sequences. Tools that can accomplish this well are Fastp or Trimmomatic.
 ![image](https://github.com/hbcheng7/BENG183/assets/133923635/80bb6ba8-d960-4306-9626-a42bae78b855)
-FASTQC Example output
+FASTQC Example Output of Quality Scores
 ## 2. Alignment to a Reference Genome
 Alignment is a big step in knowing where all of your raw reads fall. Without it, you won't know where in position these reads are and will have no idea how to piece together the pieces of it. Tools used in this case will give you data on where each read lies in the genome, as well as information about the alignment quality and details. 
 
@@ -32,7 +32,7 @@ Alignment is a big step in knowing where all of your raw reads fall. Without it,
   Bowtie Process
 - **SAM Format**: It is important to be able to understand your alignment and its details for each read. Thus, you should run SAMtools to generate a SAM format output from a binary BAM format. SAM formats are able to be read and give statistics needed for each read.
 ![image](https://github.com/hbcheng7/BENG183/assets/133923635/53a3caef-2cb3-44c9-b735-5ea262b4fc66)
-SAM Format
+SAM File Format Guide
 ## 3. Post-alignment Processing
 After alignments, you should run some more quality control filtering. This is mainly to clean up any bad alignments and unneccesary reads. SAMtools can already perform this quality control.
 
