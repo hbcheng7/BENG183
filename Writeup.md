@@ -15,7 +15,6 @@
 ## 6. Data Analysis
 
 # Bioinformatics Pipeline
-# ChIP-Seq Data Processing Pipeline
 
 After performing ChIP-Seq experiments, the raw data obtained need to be processed through a series of computational steps. Below is a typical pipeline for ChIP-Seq data processing.
 
