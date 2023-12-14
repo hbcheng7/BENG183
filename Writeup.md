@@ -12,10 +12,10 @@ Formaldehyde is used to cross-link proteins to DNA, creating covalent bonds betw
 ### 2. Cell Lysis and Chromatin Shearing:
 **Objective:** Solubilization of DNA-Protein Complexes
 
-**a. Cell Lysis:**
+**Cell Lysis:**
 Cells are treated with lysis solutions, which dissolve cell membranes, releasing cellular contents into a solution. This process solubilizes the DNA-protein complexes, making them accessible for further analysis.
 
-**b. Chromatin Shearing:**
+**Chromatin Shearing:**
 To further analyze the samples, the DNA-protein complexes need to be broken into smaller fragments. This is achieved through either sonication or enzyme digestion. Sonication uses ultrasonic waves to physically fragment the chromatin, while enzyme digestion uses specific enzymes to cleave the DNA at targeted sites.
 
 ### 3. Immunoprecipitation of DNA-Protein Complexes:
