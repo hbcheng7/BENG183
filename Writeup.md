@@ -1,5 +1,5 @@
 # Introduction
-ChIP-Seq (chromatin immunoprecipitation sequencing) is a powerful tool that has revolutionized the field of molecular biology. ChIP-Seq enables the identification of genome-wide DNA binding activity for transcription factors, histone modifications, nucleosomes, and many other insights into the genome. As suggested in the name, it can achieve this through chromatin immunoprecipitation, followed by sequencing. Chip-Seq has also introduced renowned biotechnology companies such as Illumina to integrate ChIP-Seq with existing technology such as next-generation sequencing allowing them to research [cancer development and progression](https://www.illumina.com/techniques/sequencing/dna-sequencing/chip-seq.html). In short, ChIP-Seq has quickly become essential to understanding the complexities of the genome. This write-up will provide a basic overview of the chromatin immunoprecipitation to sequencing pipeline, followed by the bioinformatics pipeline, and finally, we will explore some of the recent applications of ChIP-Seq and why ChiP-Seq should be more prominent. 
+ChIP-Seq (chromatin immunoprecipitation sequencing) is a powerful tool that has revolutionized the field of molecular biology. ChIP-Seq enables the identification of genome-wide DNA binding activity for transcription factors, histone modifications, nucleosomes, and many other insights into the genome. As suggested in the name, it can achieve this through chromatin immunoprecipitation, followed by sequencing. Renowned biotechnology companies such as Illumina have already begun to integrate ChIP-Seq with existing technology such as next-generation sequencing allowing them to research [cancer development and progression](https://www.illumina.com/techniques/sequencing/dna-sequencing/chip-seq.html). In short, ChIP-Seq is an incredibly useful tool and has quickly become essential to understanding the complexities of the genome. This write-up will provide a basic overview of the chromatin immunoprecipitation to sequencing pipeline, followed by the bioinformatics pipeline, some of the recent applications of ChIP-Seq, and why ChiP-Seq should be more prominent. 
 # Experimental Sequencing Pipeline<a name="1"></a>
 
 ![Experimental Sequencing Pipeline](https://media.cellsignal.com/www/images/resources/applications/chip-educational/chip-protocol-steps.png)
@@ -9,26 +9,26 @@ ChIP-Seq (chromatin immunoprecipitation sequencing) is a powerful tool that has 
 ### 1. Cross-linking of Protein and DNA:
 **Objective:** Stabilization of DNA-Protein Complexes
 
-Formaldehyde is used to cross-link proteins to DNA, creating covalent bonds between them. This captures the interactions between proteins and DNA at a specific moment and locks them in place for analysis. Furthermore, using formaldehyde for cross-linking stabilizes the complexes, preventing their dissociation during subsequent steps. The result is the formation of DNA-protein complexes that can be isolated and analyzed.
+The first step in chromatin immunoprecipitation is for the cross-linking of cells to occur. In order to achieve this, Formaldehyde is used to cross-link proteins to DNA, this will create covalent bonds between them. This captures the interactions between proteins and DNA at a specific moment and locks them in place for analysis. Furthermore, using formaldehyde for cross-linking stabilizes the complexes, preventing their dissociation during later steps. 
 
 ### 2. Cell Lysis and Chromatin Shearing:
 **Objective:** Solubilization of DNA-Protein Complexes
 
 **Cell Lysis:**
-Cells are treated with lysis solutions, which dissolve cell membranes, releasing cellular contents into a solution. This process solubilizes the DNA-protein complexes, making them accessible for further analysis.
+Cells are treated with lysis solutions, which will dissolve cell membranes, allowing easier access to cellular contents. This process will also solubilize the DNA-protein complexes, making them accessible for further analysis.
 
 **Chromatin Shearing:**
-To further analyze the samples, the DNA-protein complexes need to be broken into smaller fragments. This is achieved through either sonication or enzyme digestion. Sonication uses ultrasonic waves to physically fragment the chromatin, while enzyme digestion uses specific enzymes to cleave the DNA at targeted sites.
+To further analyze the samples, the DNA-protein complexes need to be broken into smaller fragments. This can be done using ultrasonic waves to physically fragment the chromatin (sonication) or using specific enzymes to cleave the DNA at targeted sites (enzyme digestion).
 
 ### 3. Immunoprecipitation of DNA-Protein Complexes:
 **Objective:** Isolation and Purification of DNA Fragments
 
-Protein-specific antibodies are then introduced to the solution. These antibodies are designed to recognize and bind to specific proteins of interest within the DNA-protein complexes. The antibody-protein-DNA complexes are then treated with immunoprecipitation. This step enriches the sample for DNA fragments associated with the targeted protein, allowing for their isolation and further analysis.
+For this step, protein-specific antibodies are introduced to the solution. They are designed to recognize and bind to specific proteins of interest within the DNA-protein complexes. The antibody-protein-DNA complexes are then treated with immunoprecipitation. This step enriches the sample for DNA fragments associated with the targeted protein, allowing for their isolation and further analysis.
 
 ### 4. Reverse Cross-linking and DNA Purification:
 **Objective:** Separation of DNA from Proteins and Reversion of Cross-links
 
-After immunoprecipitation, the cross-links between proteins and DNA need to be reversed to separate the DNA for downstream applications. This can be achieved by heating the sample, breaking the formaldehyde bonds. The resulting DNA will be purified from proteins and other cellular debris, which can then be used for sequencing.
+After immunoprecipitation, the cross-links between proteins and DNA are then reversed to separate the DNA for downstream applications. This can be done by heating the sample which will break the formaldehyde bonds. In addition, the resulting DNA will be purified from proteins and other cellular debris, which can then be used for sequencing.
 
 
 
@@ -144,10 +144,11 @@ Lastly, here is one real-world example of ChIP-seq being used:
 # References
 1. https://www.illumina.com/techniques/sequencing/dna-sequencing/chip-seq.html
 2. https://media.cellsignal.com/www/images/resources/applications/chip-educational/chip-protocol-steps.png
-3. https://www.epicypher.com/resources/blogchromatin-mapping-basics-chipseq/
-4. https://www.cd-genomics.com/pipeline-and-tools-comparison-for-chip-seq-analysis.html
-5. https://hbctraining.github.io/Intro-to-rnaseq-hpc-salmon/lessons/qc_fastqc_assessment.html
-6. https://www.basepairtech.com/blog/basepairs-chip-seq-analysis-pipelines-pathway-enrichment/
-7. https://www.encodeproject.org/help/project-overview/
+3. https://www.thermofisher.com/us/en/home/life-science/antibodies/antibodies-learning-center/antibodies-resource-library/antibody-application-notes/step-by-step-guide-successful-chip-assays.html
+4. https://www.epicypher.com/resources/blogchromatin-mapping-basics-chipseq/
+5. https://www.cd-genomics.com/pipeline-and-tools-comparison-for-chip-seq-analysis.html
+6. https://hbctraining.github.io/Intro-to-rnaseq-hpc-salmon/lessons/qc_fastqc_assessment.html
+7. https://www.basepairtech.com/blog/basepairs-chip-seq-analysis-pipelines-pathway-enrichment/
+8. https://www.encodeproject.org/help/project-overview/
 
 
