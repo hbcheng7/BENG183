@@ -2,6 +2,8 @@
 [Chip-Seq](https://www.illumina.com/techniques/sequencing/dna-sequencing/chip-seq.html), also known as chromatin immunoprecipitation sequencing, is a powerful tool that has revolutionized the field of molecular biology. ChIP-Seq enables the identification of genome-wide DNA binding activity for transcription factors, histone modifications, nucleosomes, and many other insights into the genome. As suggested in the name, It can achieve this through chromatin immunoprecipitation, followed by sequencing. Renowned biotechnology companies such as Illumina have integrated ChIP-Seq with existing technology such as next-generation sequencing to research cancer development and progression. In short, ChIP-Seq has quickly become essential to understanding the complexities of the genome. This write-up will provide a basic overview of the chromatin immunoprecipitation to sequencing pipeline, followed by the bioinformatics pipeline, and finally, we will explore some of the recent applications of ChIP-Seq and why ChiP-Seq should be more prominent. 
 # Experimental Sequencing Pipeline<a name="1"></a>
 
+![Experimental Sequencing Pipeline](https://media.cellsignal.com/www/images/resources/applications/chip-educational/chip-protocol-steps.png)
+
 ### 1. Cross-linking of Protein and DNA:
 **Objective:** Stabilization of DNA-Protein Complexes
 
@@ -14,7 +16,7 @@ Formaldehyde is used to cross-link proteins to DNA, creating covalent bonds betw
 Cells are treated with lysis solutions, which dissolve cell membranes, releasing cellular contents into a solution. This process solubilizes the DNA-protein complexes, making them accessible for further analysis.
 
 **b. Chromatin Shearing:**
-To further analyze the samples, the DNA-protein complexes need to be broken into smaller fragments. This is achieved through either sonication or enzyme digestion. Sonication uses ultrasonic waves to physically fragment the chromatin, while enzyme digestion uses specific enzymes to cleave the DNA at targeted sites. 
+To further analyze the samples, the DNA-protein complexes need to be broken into smaller fragments. This is achieved through either sonication or enzyme digestion. Sonication uses ultrasonic waves to physically fragment the chromatin, while enzyme digestion uses specific enzymes to cleave the DNA at targeted sites.
 
 ### 3. Immunoprecipitation of DNA-Protein Complexes:
 **Objective:** Isolation and Purification of DNA Fragments
@@ -25,6 +27,8 @@ Protein-specific antibodies are then introduced to the solution. These antibodie
 **Objective:** Separation of DNA from Proteins and Reversion of Cross-links
 
 After immunoprecipitation, the cross-links between proteins and DNA need to be reversed to separate the DNA for downstream applications. This can be achieved by heating the sample, breaking the formaldehyde bonds. The resulting DNA will be purified from proteins and other cellular debris, which can then be used for sequencing.
+
+
 
 
 # Bioinformatics Pipeline<a name="2"></a>
@@ -136,10 +140,11 @@ Lastly, here is one real-world example of ChIP-seq being used:
 
 # References
 1. https://www.illumina.com/techniques/sequencing/dna-sequencing/chip-seq.html
-2. https://www.epicypher.com/resources/blogchromatin-mapping-basics-chipseq/
-3. https://www.cd-genomics.com/pipeline-and-tools-comparison-for-chip-seq-analysis.html
-4. https://hbctraining.github.io/Intro-to-rnaseq-hpc-salmon/lessons/qc_fastqc_assessment.html
-5. https://www.basepairtech.com/blog/basepairs-chip-seq-analysis-pipelines-pathway-enrichment/
-6. https://www.encodeproject.org/help/project-overview/
+2. https://media.cellsignal.com/www/images/resources/applications/chip-educational/chip-protocol-steps.png
+3. https://www.epicypher.com/resources/blogchromatin-mapping-basics-chipseq/
+4. https://www.cd-genomics.com/pipeline-and-tools-comparison-for-chip-seq-analysis.html
+5. https://hbctraining.github.io/Intro-to-rnaseq-hpc-salmon/lessons/qc_fastqc_assessment.html
+6. https://www.basepairtech.com/blog/basepairs-chip-seq-analysis-pipelines-pathway-enrichment/
+7. https://www.encodeproject.org/help/project-overview/
 
 
