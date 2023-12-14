@@ -59,7 +59,7 @@ After alignments, you should run some more quality control filtering. This is ma
 ### 4. Peak Calling<a name="2.4"></a>
 Peak calling is an important step in this process. You want to find where peaks are going to be, and are of a significant higher signal than the background. These will be your areas for where transcription factor binding will be happening. Make sure you normalize your data for neccesary comparisons without bias.
 ![image](https://github.com/hbcheng7/BENG183/assets/133923635/884969c5-fd2c-46af-b65d-d0e115938c0d)
-<br>MACS2 Model For Finding Peaks via Tag Data
+<br>MACS2 Model For Finding Peaks via Tag Data (Read more [here](https://pypi.org/project/MACS2/))
   
 - **Identify Enriched Peak Regions**: Peak calling can be done with tools such as MACS2 or HOMER.
 - **Peak Annotation**: Annotating peaks is important to see which features are most likely to be found at your identified region. This can be done with HOMER or BEDTools. Your results should be genomic signal profiles, distributions of different regulatory elements, and nearest introns/exons/ genic regions.
@@ -69,7 +69,7 @@ Differential binding analysis is important to visualize the differences in gene 
 
 - **Comparative Analysis**: Compare different conditions or time points to identify how the binding complex interacts differently. Tools that could be used for this could be DiffBind or MAnorm.
 ![image](https://github.com/hbcheng7/BENG183/assets/133923635/9d0123cf-ee94-4360-acc1-b09570c98149)
-<br>Diffbind binding affinities visualized for each factor
+<br>Diffbind binding affinities visualized for each factor (Read more [here](https://bioconductor.org/packages/release/bioc/vignettes/DiffBind/inst/doc/DiffBind.pdf)
 
 ### 6. Visualization<a name="2.6"></a>
 It is important to see where in the genome your peaks are being called. This can be done using a genome browser.
