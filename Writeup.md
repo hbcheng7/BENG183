@@ -92,6 +92,7 @@ This pipeline is crucial for transforming raw ChIP-Seq data into meaningful insi
 <img width="676" alt="image" src="https://github.com/hbcheng7/BENG183/assets/133923635/a96b9f2c-a98e-41cb-b59d-6cf32b17ef09">
 <br>Top Known Motifs Found with their Statistics  
 # Advantages and Applications<a name="3"></a>
+
 ### Why should I use ChIP-seq?<a name="3.1"></a>
 
 - **High-Resolution Mapping**
