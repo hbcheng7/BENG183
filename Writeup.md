@@ -2,7 +2,7 @@
 [Chip-Seq](https://www.illumina.com/techniques/sequencing/dna-sequencing/chip-seq.html), also known as chromatin immunoprecipitation sequencing, is a powerful tool that has revolutionized the field of molecular biology. ChIP-Seq enables the identification of genome-wide DNA binding activity for transcription factors, histone modifications, nucleosomes, and many other insights into the genome. As suggested in the name, It can achieve this through chromatin immunoprecipitation, followed by sequencing. Renowned biotechnology companies such as Illumina have integrated ChIP-Seq with existing technology such as next-generation sequencing to research cancer development and progression. In short, ChIP-Seq has quickly become essential to understanding the complexities of the genome. This write-up will provide a basic overview of the chromatin immunoprecipitation to sequencing pipeline, followed by the bioinformatics pipeline, and finally, we will explore some of the recent applications of ChIP-Seq and why ChiP-Seq should be more prominent. 
 # Experimental Sequencing Pipeline<a name="1"></a>
 
-![Experimental Sequencing Pipeline](https://media.cellsignal.com/www/images/resources/applications/chip-educational/chip-protocol-steps.png)
+<img src="https://media.cellsignal.com/www/images/resources/applications/chip-educational/chip-protocol-steps.png" alt="Experimental Sequencing Pipeline" width="400">
 
 ### 1. Cross-linking of Protein and DNA:
 **Objective:** Stabilization of DNA-Protein Complexes
