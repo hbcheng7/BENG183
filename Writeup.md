@@ -1,5 +1,5 @@
 # Introduction
-ChIP-Seq, also known as chromatin immunoprecipitation, is a powerful tool that has revolutionized the field of molecular biology. ChIP-Seq enables the identification of genome-wide DNA binding activity for transcription factors, histone modifications, nucleosomes, and many other insights into the genome. As suggested in the name, It can achieve this through chromatin immunoprecipitation, followed by sequencing. The discovery of this technology has made an immediate impact on the realm of biology. This write-up will provide a basic overview of the chromatin immunoprecipitation to sequencing pipeline, followed by the bioinformatics pipeline, and finally, we will explore some of the recent applications of ChIP-Seq and why ChiP-Seq should be more prominent. 
+[Chip-Seq](https://www.illumina.com/techniques/sequencing/dna-sequencing/chip-seq.html), also known as chromatin immunoprecipitation sequencing, is a powerful tool that has revolutionized the field of molecular biology. ChIP-Seq enables the identification of genome-wide DNA binding activity for transcription factors, histone modifications, nucleosomes, and many other insights into the genome. As suggested in the name, It can achieve this through chromatin immunoprecipitation, followed by sequencing. Renowned biotechnology companies such as Illumina have integrated ChIP-Seq with existing technology such as next-generation sequencing to research cancer development and progression. In short, ChIP-Seq has quickly become essential to understanding the complexities of the genome. This write-up will provide a basic overview of the chromatin immunoprecipitation to sequencing pipeline, followed by the bioinformatics pipeline, and finally, we will explore some of the recent applications of ChIP-Seq and why ChiP-Seq should be more prominent. 
 # Experimental Sequencing Pipeline<a name="1"></a>
 
 ### 1. Cross-linking of Protein and DNA:
@@ -135,10 +135,11 @@ Lastly, here is one real-world example of ChIP-seq being used:
   - This project aims to catalog all functional elements in the human genome, offering a comprehensive atlas for understanding gene regulation and its implications in health and disease.
 
 # References
-1. https://www.epicypher.com/resources/blogchromatin-mapping-basics-chipseq/
-2. https://www.cd-genomics.com/pipeline-and-tools-comparison-for-chip-seq-analysis.html
-3. https://hbctraining.github.io/Intro-to-rnaseq-hpc-salmon/lessons/qc_fastqc_assessment.html
-4. https://www.basepairtech.com/blog/basepairs-chip-seq-analysis-pipelines-pathway-enrichment/
-5. https://www.encodeproject.org/help/project-overview/
+1. https://www.illumina.com/techniques/sequencing/dna-sequencing/chip-seq.html
+2. https://www.epicypher.com/resources/blogchromatin-mapping-basics-chipseq/
+3. https://www.cd-genomics.com/pipeline-and-tools-comparison-for-chip-seq-analysis.html
+4. https://hbctraining.github.io/Intro-to-rnaseq-hpc-salmon/lessons/qc_fastqc_assessment.html
+5. https://www.basepairtech.com/blog/basepairs-chip-seq-analysis-pipelines-pathway-enrichment/
+6. https://www.encodeproject.org/help/project-overview/
 
 
