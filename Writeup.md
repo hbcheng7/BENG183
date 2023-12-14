@@ -1,6 +1,6 @@
 # Introduction
 ChIP-Seq (chromatin immunoprecipitation sequencing) is a powerful tool that has revolutionized the field of molecular biology. ChIP-Seq enables the identification of genome-wide DNA binding activity for transcription factors, histone modifications, nucleosomes, and many other insights into the genome. As suggested in the name, it can achieve this through chromatin immunoprecipitation, followed by sequencing. Renowned biotechnology companies such as Illumina have already begun to integrate ChIP-Seq with existing technology such as next-generation sequencing allowing them to research [cancer development and progression](https://www.illumina.com/techniques/sequencing/dna-sequencing/chip-seq.html). In short, ChIP-Seq is an incredibly useful tool and has quickly become essential to understanding the complexities of the genome. This write-up will provide a basic overview of the chromatin immunoprecipitation to sequencing pipeline, followed by the bioinformatics pipeline, some of the recent applications of ChIP-Seq, and why ChiP-Seq should be more prominent. 
-# Experimental Sequencing Pipeline<a name="1"></a>
+# Chromatin Immunoprecipitation Pipeline<a name="1"></a>
 
 ![Experimental Sequencing Pipeline](https://media.cellsignal.com/www/images/resources/applications/chip-educational/chip-protocol-steps.png)
 
@@ -26,9 +26,9 @@ To further analyze the samples, the DNA-protein complexes need to be broken into
 For this step, protein-specific antibodies are introduced to the solution. They are designed to recognize and bind to specific proteins of interest within the DNA-protein complexes. The antibody-protein-DNA complexes are then treated with immunoprecipitation. This step enriches the sample for DNA fragments associated with the targeted protein, allowing for their isolation and further analysis.
 
 ### 4. Reverse Cross-linking and DNA Purification:
-**Objective:** Separation of DNA from Proteins and Reversion of Cross-links
+**Objective:** Separation of DNA from Proteins and Reversal of Cross-links
 
-After immunoprecipitation, the cross-links between proteins and DNA are then reversed to separate the DNA for downstream applications. This can be done by heating the sample which will break the formaldehyde bonds. In addition, the resulting DNA will be purified from proteins and other cellular debris, which can then be used for sequencing.
+After immunoprecipitation, the cross-links between proteins and DNA are then reversed to separate the DNA. This can be done by heating the sample which will break the formaldehyde bonds. In addition, the resulting DNA will be purified from proteins and other cellular debris, which can then be used for sequencing.
 
 
 
