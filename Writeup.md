@@ -2,14 +2,30 @@
 ChIP-Seq, also known as chromatin immunoprecipitation, is a powerful tool that has revolutionized the field of molecular biology. ChIP-Seq enables the identification of genome-wide DNA binding activity for transcription factors, histone modifications, nucleosomes, and many other insights into the genome. As suggested in the name, It can achieve this through chromatin immunoprecipitation, followed by sequencing. The discovery of this technology has made an immediate impact on the realm of biology. This write-up will provide a basic overview of ChIP-Seq’s sequencing pipeline, followed by the bioinformatics pipeline, and finally, we will explore some of the applications of ChIP-Seq in recent molecular biology. 
 # Experimental Sequencing Pipeline<a name="1"></a>
 
-### 1. Cross-linking of Protein and DNA
- The first step of chromatin immunoprecipitation is the cross-linking of protein and DNA using formaldehyde. The purpose of this step is to stabilize the DNA-Protein complexes and lock the complexes together for analysis. The result of this step is to obtain isolated DNA samples.
-### 2. Cell Lysis and Chromatin Shearing
-In this step, cells are treated with lysis solutions so that the cell membranes are dissolved, the DNA-protein complexes are solubilized. In addition, this step removes the cytosolic proteins to achieve less background signal and increase the sensitivity of this assay. To further analyze the DNA-protein complexes, the samples are sheared into smaller pieces. This step can be done either by sonication or through enzyme digestion.
-### 3. Immunoprecipitation of DNA-Protein Complexes
-In this step, protein-specific antibodies are used to immunoprecipitate and purify the DNA-protein complex.  The purpose of this step is to break down the DNA-protein complexes which would allow reverse crosslinking to occur in the next step.
-### 4. Reverse Cross-linking and DNA Purification
-After we have broken down the DNA-protein complexes, the DNA will then reverse cross-link with each other. This would allow us to obtain a purified DNA sequence for sequencing to occur.  
+### 1. Cross-linking of Protein and DNA:
+**Objective:** Stabilization of DNA-Protein Complexes
+
+Formaldehyde is used to cross-link proteins to DNA, creating covalent bonds between them. This captures the interactions between proteins and DNA at a specific moment and locks them in place for analysis. Furthermore, using formaldehyde for cross-linking stabilizes the complexes, preventing their dissociation during subsequent steps. The result is the formation of DNA-protein complexes that can be isolated and analyzed.
+
+### 2. Cell Lysis and Chromatin Shearing:
+**Objective:** Solubilization of DNA-Protein Complexes
+
+**a. Cell Lysis:**
+Cells are treated with lysis solutions, which dissolve cell membranes, releasing cellular contents into a solution. This process solubilizes the DNA-protein complexes, making them accessible for further analysis.
+
+**b. Chromatin Shearing:**
+To further analyze the samples, the DNA-protein complexes need to be broken into smaller fragments. This is achieved through either sonication or enzyme digestion. Sonication uses ultrasonic waves to physically fragment the chromatin, while enzyme digestion uses specific enzymes to cleave the DNA at targeted sites. 
+
+### 3. Immunoprecipitation of DNA-Protein Complexes:
+**Objective:** Isolation and Purification of DNA Fragments
+
+Protein-specific antibodies are then introduced to the solution. These antibodies are designed to recognize and bind to specific proteins of interest within the DNA-protein complexes. The antibody-protein-DNA complexes are then treated with immunoprecipitation. This step enriches the sample for DNA fragments associated with the targeted protein, allowing for their isolation and further analysis.
+
+### 4. Reverse Cross-linking and DNA Purification:
+**Objective:** Separation of DNA from Proteins and Reversion of Cross-links
+
+After immunoprecipitation, the cross-links between proteins and DNA need to be reversed to separate the DNA for downstream applications. This can be achieved by heating the sample, breaking the formaldehyde bonds. The resulting DNA will be purified from proteins and other cellular debris, which can then be used for sequencing.
+
 
 # Bioinformatics Pipeline<a name="2"></a>
 
