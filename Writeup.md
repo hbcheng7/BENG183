@@ -3,17 +3,13 @@ ChIP-Seq, also known as chromatin immunoprecipitation, is a powerful tool that h
 # Experimental Sequencing Pipeline<a name="1"></a>
 
 ### 1. Cross-linking of Protein and DNA
-
+ The first step of chromatin immunoprecipitation is the cross-linking of protein and DNA using formaldehyde. The purpose of this step is to stabilize the DNA-Protein complexes and lock the complexes together for analysis. The result of this step is to obtain isolated DNA samples.
 ### 2. Cell Lysis and Chromatin Shearing
-
+In this step, cells are treated with lysis solutions so that the cell membranes are dissolved, the DNA-protein complexes are solubilized. In addition, this step removes the cytosolic proteins to achieve less background signal and increase the sensitivity of this assay. To further analyze the DNA-protein complexes, the samples are sheared into smaller pieces. This step can be done either by sonication or through enzyme digestion.
 ### 3. Immunoprecipitation of DNA-Protein Complexes
-
-
+In this step, protein-specific antibodies are used to immunoprecipitate and purify the DNA-protein complex.  The purpose of this step is to break down the DNA-protein complexes which would allow reverse crosslinking to occur in the next step.
 ### 4. Reverse Cross-linking and DNA Purification
-
-### 5. DNA Sequencing
-
-### 6. Data Analysis
+After we have broken down the DNA-protein complexes, the DNA will then reverse cross-link with each other. This would allow us to obtain a purified DNA sequence for sequencing to occur.  
 
 # Bioinformatics Pipeline<a name="2"></a>
 
