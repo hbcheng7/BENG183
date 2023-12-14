@@ -73,14 +73,14 @@ Differential binding analysis is important to visualize the differences in gene 
 
 - **Comparative Analysis**: Compare different conditions or time points to identify how the binding complex interacts differently. Tools that could be used for this could be DiffBind or MAnorm.
 ![image](https://github.com/hbcheng7/BENG183/assets/133923635/9d0123cf-ee94-4360-acc1-b09570c98149)
-<br>Diffbind binding affinities visualized for each factor (Read more [here](https://bioconductor.org/packages/release/bioc/vignettes/DiffBind/inst/doc/DiffBind.pdf)
+<br>Diffbind binding affinities visualized for each factor (Read more [here](https://bioconductor.org/packages/release/bioc/vignettes/DiffBind/inst/doc/DiffBind.pdf))
 
 ### 6. Visualization<a name="2.6"></a>
 It is important to see where in the genome your peaks are being called. This can be done using a genome browser.
 
 - **Genome Browser**: You can visualize the binding sites as peaks compared to the background using tools like the UCSC Genome Browser or IGV.
 <img width="663" alt="image" src="https://github.com/hbcheng7/BENG183/assets/133923635/49eae0d5-0f94-4047-a5de-896af21f109c">
-<br>IGV Visualization (enriched peaks are circled) 
+<br>IGV Visualization (enriched peaks are circled)
 
 ### 7. Motif Analysis<a name="2.7"></a>
 Lastly, you can utilize techniques to find enriched motifs. This allows for us to understand binding preferences and regulatory roles of protein-DNA binding complexes
@@ -90,7 +90,7 @@ Lastly, you can utilize techniques to find enriched motifs. This allows for us t
 This pipeline is crucial for transforming raw ChIP-Seq data into meaningful insights about protein-DNA interactions and their impact on gene regulation and cellular processes.
 
 <img width="676" alt="image" src="https://github.com/hbcheng7/BENG183/assets/133923635/a96b9f2c-a98e-41cb-b59d-6cf32b17ef09">
-<br>Top Known Motifs Found with their Statistics
+<br>Top Known Motifs Found with their Statistics (Read more [here] (http://homer.ucsd.edu/homer/motif/))
 
 # Advantages and Applications<a name="3"></a>
 ### Why should I use ChIP-seq?<a name="3.1"></a>
